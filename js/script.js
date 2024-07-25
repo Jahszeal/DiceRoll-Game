@@ -42,7 +42,7 @@ const playerSwitch = function () {
 diceRoll.addEventListener("click", function () {
   diceCube.classList.remove("hidden");
   const dice = Math.trunc(Math.random() * 6) + 1;
-  diceCube.src = `dice-${dice}.png`;
+  diceCube.src = `./img/dice-${dice}.png`;
 
   if (playGame) {
     if (dice !== 1) {
